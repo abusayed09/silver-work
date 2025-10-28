@@ -13,7 +13,7 @@
     padding:6px 0px 6px 0px ;
 }
 
-.hader-top a{
+/* .hader-top a{
     color: #fff;
     font-size: 13px;
     text-decoration: none;
@@ -22,7 +22,7 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding-left: 10px;
-}
+} */
 .hader-top .mailtoIC{
     padding-right: 41px;
 }
@@ -115,7 +115,11 @@ width: calc(100% + 20px);
 /* .slider-section .container{
 
 } */
-
+.slider-section{
+    background: url(../assets/images/Banner-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .slider-section .slider-caption{
     position: absolute;
     width: 100%;
@@ -398,7 +402,5 @@ width: calc(100% + 20px);
     font-size: 8px;
     color: #fff;
 }
-
-
 
 
